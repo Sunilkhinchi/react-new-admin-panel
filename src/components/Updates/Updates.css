@@ -1,0 +1,45 @@
+.Updates{
+    width: 85%;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    min-height: 365px;
+}
+
+.update{
+    display: flex;
+    gap: 0.5rem;
+    background: #fff;
+    border-radius: 14px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.update>img{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.noti>div>span:nth-of-type(1){
+    font-weight: bold;
+}
+
+.Update-single {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    width: 80%;
+    height: 90%;
+    background: #fff;
+    border: 2px solid rgb(255 202 113);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
