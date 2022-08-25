@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-new-admin-panel/static/css/main.fd42cef2.css",
+    "main.js": "/react-new-admin-panel/static/js/main.75de48ac.js",
+    "static/media/img1.png": "/react-new-admin-panel/static/media/img1.a0fca9c51749c1ee3db5.png",
+    "static/media/img2.png": "/react-new-admin-panel/static/media/img2.f5f922c9b93eaf2c4065.png",
+    "static/media/img3.png": "/react-new-admin-panel/static/media/img3.6b1484548ee065fd59b5.png",
+    "index.html": "/react-new-admin-panel/index.html",
+    "main.fd42cef2.css.map": "/react-new-admin-panel/static/css/main.fd42cef2.css.map",
+    "main.75de48ac.js.map": "/react-new-admin-panel/static/js/main.75de48ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd42cef2.css",
+    "static/js/main.75de48ac.js"
+  ]
+}
