@@ -1,4 +1,9 @@
 ## admin panel 
+
+## deployed link
+
+https://Sunilkhinchi.github.io/react-new-admin-panel 
+
 #### Example:
 
 admin panel 
