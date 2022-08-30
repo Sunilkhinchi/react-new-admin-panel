@@ -46,6 +46,8 @@
   transition: all 300ms ease;
   border-radius: 0.7rem;
   font-size: 14px;
+  text-decoration: none;
+  color: #242d49;
 }
 
 .menuItem:hover {

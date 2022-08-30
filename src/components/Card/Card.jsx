@@ -6,6 +6,7 @@ import './Card.css'
 import { UilTimes } from "@iconscout/react-unicons";
 import Chart from "react-apexcharts";
 
+
 const Card = (props) => {
  
    const [expanded, setExpanded] = useState(false);

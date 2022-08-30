@@ -8,13 +8,15 @@ import { useState } from 'react';
 
 
 
+
 function App() {
   const [id,setId] = useState(0);
  
   return (
     <div className="App">
+     
         <div className='AppGlass'>
-          <Sidebar setId = {setId} />
+          <Sidebar setId = {setId}/>
           <CoverDash id = {id} />
           <RightSide/>
         </div>

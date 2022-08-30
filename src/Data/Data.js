@@ -25,26 +25,31 @@ import {
       id : 0,
       icon: UilEstate,
       heading: "Dashboard",
+       url:"mainDash",
     },
     {
       id : 1,
       icon: UilClipboardAlt,
       heading: "Orders",
+      url:"orders",
     },
     {
       id : 2,
       icon: UilUsersAlt,
       heading: "Customers",
+      url:"customers",
     },
     {
       id : 3,
       icon: UilPackage,
-      heading: 'Products'
+      heading: 'Products',
+      url:"products",
     },
     {
       id : 4,
       icon: UilChart,
-      heading: 'Analytics'
+      heading: 'Analytics',
+      url:"analytics",
     },
   ];
   

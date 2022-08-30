@@ -21,22 +21,43 @@ const rows = [
   createData('Gingerbread', 2233444, "2 March", "Padding"),
 ];
 
+
+
+
 const makeStyles = (status) => {
-    if(status === "Approved")  {
+    // if(status === "Approved")  {
+    //     return {
+    //         background: 'rgb(145 254 159 / 47%)',
+    //         color:'green',
+    //     }
+    // }else if (status === "Padding") {
+    //     return {
+    //         background: '#ffadad8f',
+    //         color:'red',
+    //     }
+    // }else {
+    //     return {
+    //         background: '#59bfff',
+    //         color:'white',
+    //     }
+    // }
+    switch(status) {
+      case 'Approved':
         return {
-            background: 'rgb(145 254 159 / 47%)',
-            color:'green',
-        }
-    }else if (status === "Padding") {
+          background: 'rgb(145 254 159 / 47%)',
+          color:'green',
+      };
+      case 'Padding':
         return {
-            background: '#ffadad8f',
-            color:'red',
-        }
-    }else {
+          background: '#ffadad8f',
+          color:'red',
+      };
+
+      default:
         return {
-            background: '#59bfff',
-            color:'white',
-        }
+          background: '#59bfff',
+          color:'white',
+      }
     }
 
 }

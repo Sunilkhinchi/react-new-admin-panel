@@ -5,6 +5,8 @@ import {  UilSignOutAlt ,UilBars  } from "@iconscout/react-unicons";
 import { SidebarData } from '../../Data/Data';
 import { useState } from 'react';
 import { motion } from "framer-motion";
+import { Outlet,NavLink } from 'react-router-dom'
+
 
 const Sidebar = ({setId}) => {
 
@@ -38,13 +40,13 @@ const Sidebar = ({setId}) => {
         <div className='menu'>
            {SidebarData.map((item,index)=>{
             return (
-                <div className={selected === index? 'menuItem active' : 'menuItem'}
-                     key={index} onClick={()=>{setSelected(index);setId(index);}} >
+                <NavLink to={`/react-new-admin-panel/${item.url}`} className='menuItem'
+                     key={index} >
                     <item.icon/>
                     <span>
                         {item.heading}
                     </span>
-                </div>
+                </NavLink>
             )
            })}
            <div className='menuItem'>
